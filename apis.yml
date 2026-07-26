@@ -1,7 +1,28 @@
 aid: earnbetter
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/earnbetter.png
 name: EarnBetter
-description: EarnBetter is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  EarnBetter is a consumer job-search platform that gives workers free
+  AI-powered tools to land better work, including an AI resume builder, cover
+  letter generator, personalized job matching across more than five million
+  listings, and a job-search tracker. The service is positioned as 100% free to
+  job seekers and was acquired by EarnIn, the earned-wage / payroll-access
+  company. EarnBetter surfaces as a portfolio company of a16z and was added to
+  the API Evangelist network as a lead. As of this pass EarnBetter publishes no
+  public developer portal, API documentation, or machine-readable API surface;
+  this profile therefore captures company identity and public link properties
+  only, with no API artifacts to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/earnbetter/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,34 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Job Search
+- Recruiting
+- Resume
+- Career
+- Artificial Intelligence
+- Consumer
 apis: []
+common:
+- type: Website
+  url: https://earnbetter.com
+- type: SignUp
+  url: https://jobs.earnin.com/?utm_source=earnbetter
+- type: Login
+  url: https://earnbetter.com/app/sign-in/
+- type: TermsOfService
+  url: https://earnbetter.com/tos/
+- type: PrivacyPolicy
+  url: https://earnbetter.com/privacy/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
