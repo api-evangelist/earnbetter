@@ -54,6 +54,11 @@ tags:
 - Consumer
 apis: []
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/earnin/
+  name: EarnIn
+  x-relationship: acquired
+  x-evidence: "The service is positioned as 100% free to job seekers and was acquired by EarnIn, the earned-wage / payroll-access company."
 - type: Website
   url: https://earnbetter.com
 - type: SignUp
