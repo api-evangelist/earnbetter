@@ -70,7 +70,7 @@ common:
 - type: Website
   url: https://earnbetter.com
 - type: SignUp
-  url: https://jobs.earnin.com/?utm_source=earnbetter
+  url: https://jobs.earnin.com/
 - type: Login
   url: https://earnbetter.com/app/sign-in/
 - type: TermsOfService
